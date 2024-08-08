@@ -35,7 +35,7 @@
 
 ### 1. `gemini-chat.js`
 
-   This script enables an interactive text-based chat session with the Gemini model. Users can type messages and receive responses from the model. The conversation continues until the user types 'exit'.
+   Facilitates an interactive chat with the Gemini-1.5-Flash model. It loads API configurations, handles user input, and displays AI responses in the console. The chat session continues until 'exit' is entered.
 
    **Usage**:
    ```bash
@@ -44,7 +44,7 @@
 
 ### 2. `gemini-multi-model.js`
 
-   Demonstrates interactions with multiple AI models, showing how to utilize different models in parallel or sequentially within the same script.
+   Utilizes the Google Generative AI API to generate text from provided images. It initializes the API client with your key, converts images for the Gemini-1.5-Flash model, and logs the generated text to the console.
 
    **Usage**:
    ```bash
@@ -62,7 +62,7 @@
 
 ### 4. `gemini-streaming.js`
 
-   Allows streaming responses from the Gemini model. The model's output is streamed back to the user in real-time, providing a more dynamic interaction.
+   Enables real-time text-based chat with the Gemini-1.5-Flash model. It initializes the AI client, uses readline for user input, and streams AI responses live. The chat continues until 'exit' is typed.
 
    **Usage**:
    ```bash
@@ -71,7 +71,7 @@
 
 ### 5. `gemini-text-to-text.js`
 
-   Converts text input into generated text output using the Gemini model. It can be used for tasks such as content creation, summarization, or any other text-to-text generation.
+   Uses the Google Generative AI API to create a rhyming sonnet about a programmer's life. It initializes the client with your API key, uses the "gemini-1.5-flash" model, and logs the generated sonnet to the console.
 
    **Usage**:
    ```bash
