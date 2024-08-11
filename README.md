@@ -1,3 +1,7 @@
+Here’s the updated `README.md` with the addition of the `gemini-embeddings.js` script:
+
+---
+
 # MY-AI-APP
 
 **MY-AI-APP** is a Node.js application that leverages Google Generative AI's Gemini model to perform various tasks such as text generation, streaming responses, multi-model interactions, and more. The project includes multiple scripts that demonstrate different ways to interact with the Gemini model, allowing users to create, manage, and customize AI-driven tasks.
@@ -76,6 +80,15 @@
    **Usage**:
    ```bash
    node gemini-text-to-text.js
+   ```
+
+### 6. `gemini-embeddings.js`
+
+   Generates embeddings for a given text using the "text-embedding-004" model. It initializes the AI client, generates the embeddings, and logs the resulting values to the console.
+
+   **Usage**:
+   ```bash
+   node gemini-embeddings.js
    ```
 
 ## Usage
