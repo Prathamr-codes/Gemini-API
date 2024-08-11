@@ -15,7 +15,6 @@ const readline = require('readline');
 // Load environment variables from a .env file
 dotenv.config();
 
-
 // Create a GoogleGenerativeAI client instance using the API key from the environment
 const genAI = new GoogleGenerativeAI(process.env.API_KEY);
 
